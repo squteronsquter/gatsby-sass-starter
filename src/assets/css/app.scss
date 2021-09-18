@@ -17,29 +17,51 @@ html {
   }
   font-family: Arial, Helvetica, sans-serif;
 }
-.header {
-  height: 80vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(126, 213, 111, 0.3),
-      rgba(40, 180, 131, 0.3)
-    ),
-    url("../../images/road.jpeg");
-  background-size: cover;
-  background-position: bottom;
-  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
-  position: relative;
-  h1 {
-    font-size: 4rem;
-    position: absolute;
-    top: 20vh;
-    left: 15%;
-    max-width: 30vh;
-  }
-}
+// .header {
+//   height: 80vh;
+//   background-image: linear-gradient(
+//       to right bottom,
+//       rgba(126, 213, 111, 0.3),
+//       rgba(40, 180, 131, 0.3)
+//     ),
+//     url("../../images/road.jpeg");
+//   background-size: cover;
+//   background-position: bottom;
+//   clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+//   position: relative;
+//   h1 {
+//     font-size: 4rem;
+//     position: absolute;
+//     top: 20vh;
+//     left: 15%;
+//     max-width: 30vh;
+//   }
+// }
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 10vh;
+}
+.masthead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+  // background-image: linear-gradient(
+  //   to right bottom,
+  //   rgba(126, 213, 111, 0.9),
+  //   rgba(40, 180, 131, 0.9)
+  // );
+  background-size: cover;
+  background-position: bottom;
+  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+  padding: 3rem;
+  h1 {
+    font-size: 8rem;
+    font-weight: 100;
+    max-width: 50%;
+    margin-left: -20%;
+  }
 }

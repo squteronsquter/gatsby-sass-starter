@@ -22,7 +22,15 @@ const GbiBridged = () => {
 
   const pluginImage = getImage(backgroundimage123)
 
-  return <BgImage image={pluginImage}>Testing</BgImage>
+  return (
+    <BgImage
+      image={pluginImage}
+      className="masthead"
+      backgroundColor={`#2a2a2a`}
+    >
+      <h1>Hello from Dark Forest</h1>
+    </BgImage>
+  )
 }
 
 export default GbiBridged

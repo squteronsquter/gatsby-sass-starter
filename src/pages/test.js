@@ -2,12 +2,13 @@ import React from "react"
 import Layout from "../components/Layout"
 import "../assets/css/app.scss"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
-export default function Home() {
+export default function Test() {
   return (
     <Layout>
       <main>
-        <StaticImage src="../images/logo.svg" alt="logo" width="100" />
+        <h1>Test page</h1>
       </main>
     </Layout>
   )
