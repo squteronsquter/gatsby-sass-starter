@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Navbar() {
   return (
     <>
-      <StaticImage src="../assets/images/logo.svg" alt="Logo" width="50" />
+      <StaticImage src="../images/logo.svg" alt="Logo" width="50" />
     </>
   )
 }

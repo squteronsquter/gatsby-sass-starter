@@ -107,3 +107,5 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 ## Gatsby background image with image bridge in Gatsby v3:
 
 https://www.youtube.com/watch?v=d5i00ZN2Tuw
+
+https://www.gatsbyjs.com/plugins/gatsby-background-image/#gatsby-3--gatsby-plugin-image
