@@ -103,3 +103,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## Gatsby background image with image bridge in Gatsby v3:
+
+https://www.youtube.com/watch?v=d5i00ZN2Tuw
